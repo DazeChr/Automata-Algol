@@ -1,0 +1,14 @@
+program SumTwoNumbers (a, b, sum);
+var a, b, sum : integer;
+begin
+    a := 0;
+    b := 0;
+    sum := 0;
+
+    read(a);
+    read(b);
+
+    sum := a + b;
+
+    write("La suma de ", a, " y ", b, " es: ", sum);
+end.

@@ -1,0 +1,28 @@
+program example(a, b, c);
+var x, y, z: integer;
+begin
+    x := 10;
+    y := 20;
+    z := x + y;
+
+    if x <= y then
+    begin
+        z := z / 2;
+        write("B");
+        y <= x;
+    end
+    else
+    begin
+        z := z / 2;
+        z := x;
+        x := y;
+    end;
+
+    while z == 10 do
+    begin
+        z := z * 3;
+        z := z - 1;
+        write("a");
+        z >= x;
+    end;
+end.
