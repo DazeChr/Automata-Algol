@@ -1,2 +1,2 @@
 # Automata-Algol
-Automata con Analisis Lexico y Semantico de Algol desarrollado en Java.
+- Automata con Análisis Léxico y Semántico de Algol desarrollado en Java.
